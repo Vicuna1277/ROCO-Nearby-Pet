@@ -1,0 +1,42 @@
+# Personal runtime data and exports
+data/
+captures/
+exports/
+*.pcap
+*.pcapng
+*.rocosave
+*.rosave
+*.sqlite*
+*.db
+*.db-*
+*_settings.json
+launch_error.log
+*.log
+*.key
+*.pem
+.env
+.env.*
+
+# Local game/toolbox resources (never automatically published)
+species_names.json
+data_tables/*
+!data_tables/README.md
+!data_tables/*.example.json
+map_assets/*
+!map_assets/README.md
+!map_assets/*.example.json
+assets/*
+!assets/README.md
+
+# Generated builds and local tools
+__pycache__/
+*.py[cod]
+build/
+dist/
+*.spec
+*.exe
+*.zip
+.venv/
+venv/
+.idea/
+.vscode/
